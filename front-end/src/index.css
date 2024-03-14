@@ -8,14 +8,6 @@
   margin-top: 50px;
 }
 
-#container {
-  display:grid;
-  margin:40px;
-  max-width: 75vw;
-  grid-template-columns: repeat(6, 1fr);
-  justify-self:center;
-}
-
 #aboutme , #projects, #experience, #contactme {
   grid-column-start: 2;
   grid-column-end: 6;

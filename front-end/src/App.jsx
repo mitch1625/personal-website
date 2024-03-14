@@ -5,7 +5,7 @@ import NavBar from "./components/NavBar"
 function App() {
 
   return (
-    <div id='container'>
+    <div id='container' className='grid lg:grid-cols-6 md:grid-cols-4 mt-5 container'>
       <div id='navbar'>
     <NavBar/>
       </div>
