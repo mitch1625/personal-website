@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 #root {
   display:flex;
   justify-content: center;
@@ -23,7 +27,6 @@
   border: black 1px solid;
   position:fixed;
 }
-
 
 
 #navbar :hover {

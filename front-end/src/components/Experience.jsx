@@ -1,7 +1,7 @@
 const Experience = () => {
   return (
     <>
-    <div id='experience'>
+    <div id='experience' className='space-y-[20px] mt-20'>
     <h1>Experience / Education</h1>
     <section style={{border:'black solid 1px'}}>
     <div style={{display:'flex'}}>

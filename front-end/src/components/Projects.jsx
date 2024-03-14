@@ -1,7 +1,7 @@
 const Projects = () => {
   return (
     <>
-    <div id='projects' style={{border:'black solid 1px'}}>
+    <div id='projects' className='space-y-[20px] mt-20' style={{border:'black solid 1px'}}>
       <h1>Projects</h1>
       <section className='project' style={{border:'red solid 2px'}}>
         <div style={{display:'flex'}}>
@@ -14,7 +14,7 @@ const Projects = () => {
         </div>
       </section>
       
-      <section className='project' style={{border:'red solid 2px'}}>
+      <section style={{border:'red solid 2px'}}>
         <div style={{display:'flex'}}>
           <p style={{backgroundColor:'black', width: '200px'}}>faw</p>
           <div>
