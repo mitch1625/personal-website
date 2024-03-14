@@ -1,15 +1,15 @@
 import AboutMe from "../components/AboutMe"
 import Projects from "../components/Projects"
 import Experience from "../components/Experience"
+import ContactMe from "../components/ContactMe"
 
 const HomePage = () => {
     return (
     <>
-    <div id='homepage-components'>
     <AboutMe/>
     <Projects/>
     <Experience/>
-    </div>
+    <ContactMe/>
     </>
     )
 }

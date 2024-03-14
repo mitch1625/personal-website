@@ -1,8 +1,9 @@
 const Experience = () => {
   return (
     <>
+    <div id='experience'>
     <h1>Experience / Education</h1>
-    <section className="experience" style={{border:'black solid 1px'}}>
+    <section style={{border:'black solid 1px'}}>
     <div style={{display:'flex'}}>
         <div>
           <h2>Code Platoon - Student</h2>
@@ -12,7 +13,7 @@ const Experience = () => {
     </div>
     </section>
 
-    <section className="experience" style={{border:'black solid 1px'}}>
+    <section style={{border:'black solid 1px'}}>
     <div style={{display:'flex'}}>
         <div>
           <h2>Yonsei Korean Language Institute</h2>
@@ -21,6 +22,17 @@ const Experience = () => {
         </div>
     </div>
     </section>
+
+    <section style={{border:'black solid 1px'}}>
+    <div style={{display:'flex'}}>
+        <div>
+          <h2>Florida State University</h2>
+          <h2>August 2010 - May 2014</h2>
+          <p>{"Bachelor's of Science"}</p>
+        </div>
+    </div>
+    </section>
+    </div>
     </>
   )
 }
