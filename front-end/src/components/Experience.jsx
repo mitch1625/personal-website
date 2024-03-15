@@ -3,7 +3,7 @@ const Experience = () => {
     <>
     <div id='experience' className='space-y-[20px] mt-60'>
     <h1 className="text-3xl">Experience / Education</h1>
-    <section className="p-3" style={{border:'black solid 1px'}}>
+    <section className="p-3">
       <div>
         <div className="flex justify-between">
         <h2 className="text-xl font-semibold">Code Platoon - Student</h2>
@@ -13,7 +13,7 @@ const Experience = () => {
       </div>
     </section>
 
-    <section className="p-3" style={{border:'black solid 1px'}}>
+    <section className="p-3">
       <div className="flex justify-between">
             <h2 className="text-xl font-semibold">Yonsei Korean Language Institute</h2>
             <h2>March 2021 - February 2023</h2>
@@ -21,7 +21,7 @@ const Experience = () => {
           <p>2 year immersive Korean language program located at Yonsei University in Seoul, South Korea.</p>
     </section>
 
-    <section className="p-3" style={{border:'black solid 1px'}}>
+    <section className="p-3">
       <div>
         <div className="flex justify-between">
             <h2 className="text-xl font-semibold">Florida State University</h2>

@@ -5,19 +5,15 @@
 #root {
   display:flex;
   justify-content: center;
-  margin-top: 50px;
+  height: 100%;
+  padding-top: 50px;
+
 }
 
-#aboutme , #projects, #experience, #contactme {
+
+#aboutme , #projects, #experience, #footer{
   grid-column-start: 2;
   grid-column-end: 6;
-}
-
-#navbar {
-  list-style: none;
-  margin:0;
-  border: black 1px solid;
-  position:fixed;
 }
 
 
@@ -27,4 +23,11 @@
 
 li {
   list-style: none;
+}
+
+@media (max-width: 768px) {
+  #navbar-items {
+    display:none
+  }
+  
 }
