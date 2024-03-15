@@ -1,16 +1,24 @@
+import github from "../icons/github.png"
+import email from "../icons/email.png"
+import linkedin from "../icons/linkedin.png"
+
 const AboutMe = () => {
     return (
 			<>
-				<div id='aboutme' className="grid lg:grid-cols-4 w-full lg:col-span-4 gap-[15px]">
-          <span className="col-span-2 p-3" style={{border:'solid black 1px'}}> 
-            <h1>About me</h1>
-            <p>Aspiring software developer</p>
-            <p>Maybe put connect with me?</p>
-          </span>
-          <span className="col-span-2 p-3" style={{border:'solid black 1px'}}>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi blanditiis, vitae fugit perferendis modi magnam? Architecto ut ex error exercitationem odit consectetur, necessitatibus ipsam. Minima impedit et rerum repellat odio.</p>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque labore deleniti repellat iure et odio ut ullam cupiditate nemo! Maiores inventore quia, odio repudiandae totam exercitationem doloremque laboriosam recusandae vero.</p>
-          </span>
+				<div id='aboutme' className="gap-[15px]">
+          <div className="col-span-2"> 
+            <h1 className="text-4xl">Hello.</h1>
+            <h1 className="text-4xl">My name is Eric Mitchell.</h1>
+          </div>
+          <div className="p-3 text-lg">
+            <p>I spent six years in the Army working as a Licensed Practical Nurse. After finishing my contract, I wanted to spend some time aboard and study Korean in South Korea. I came back to the United States in 2023 to pursue a career in software development.</p>
+            <p>{"I'm actively seeking new opportunities for work. Feel free to connect with me."}</p>
+          </div>
+          <div className="flex">
+            <img style={{width:'40px', height:'40px'}} src={github}/>
+            <img style={{width:'40px', height:'40px'}} src={email}/>
+            <img style={{width:'40px', height:'40px'}} src={linkedin}/>
+          </div>
         </div>
 			</>
     )
