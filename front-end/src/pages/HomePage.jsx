@@ -1,15 +1,14 @@
 import AboutMe from "../components/AboutMe"
 import Projects from "../components/Projects"
 import Experience from "../components/Experience"
-import ContactMe from "../components/ContactMe"
-
+import Footer from "../components/Footer"
 const HomePage = () => {
     return (
     <>
     <AboutMe/>
     <Projects/>
     <Experience/>
-    <ContactMe/>
+    <Footer/>
     </>
     )
 }

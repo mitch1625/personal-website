@@ -1,29 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 #root {
   display:flex;
   justify-content: center;
-  margin-top: 50px;
+  height: 100%;
+  padding-top: 50px;
+
 }
 
-#container {
-  display:grid;
-  margin:40px;
-  max-width: 75vw;
-  grid-template-columns: repeat(6, 1fr);
-  justify-self:center;
-}
 
-#aboutme , #projects, #experience, #contactme {
+#aboutme , #projects, #experience, #footer{
   grid-column-start: 2;
   grid-column-end: 6;
 }
-
-#navbar {
-  list-style: none;
-  margin:0;
-  border: black 1px solid;
-  position:fixed;
-}
-
 
 
 #navbar :hover {
@@ -32,4 +23,11 @@
 
 li {
   list-style: none;
+}
+
+@media (max-width: 768px) {
+  #navbar-items {
+    display:none
+  }
+  
 }
