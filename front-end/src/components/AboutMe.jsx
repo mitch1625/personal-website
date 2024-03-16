@@ -7,14 +7,14 @@ const AboutMe = () => {
 			<>
 				<div id='aboutme' className="gap-[15px]">
           <div className="col-span-2"> 
-            <h1 className="text-5xl">Hello.</h1>
-            <h1 className="text-4xl">My name is Eric Mitchell.</h1>
+            <h1 className="text-9xl -mx-1.5">Hello</h1>
+            <h1 className="text-6xl">My name is Eric Mitchell.</h1>
           </div>
-          <div className="p-3 text-lg">
-            <p>I spent six years in the Army working as a Licensed Practical Nurse. After finishing my contract, I wanted to spend some time aboard and decided to studied Korean in South Korea for two years. I came back to the United States in 2023 to pursue a career in software development.</p>
+          <div className="p-3 text-xl">
+            <p>I spent six years in the Army working as a licensed practical nurse. After finishing my contract, I wanted to spend some time aboard and decided to study Korean in South Korea for two years. I came back to the United States in 2023 to pursue a career in software development.</p>
             <p>{"I'm actively seeking new opportunities for work. Feel free to connect with me."}</p>
           </div>
-          <div className="flex justify-center gap-3">
+          <div className="flex justify-end gap-3">
             <a href="https://www.github.com/mitch1625" target="blank">
               <img style={{width:'40px', height:'40px'}} src={github}/>
             </a>

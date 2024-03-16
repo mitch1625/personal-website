@@ -4,7 +4,7 @@ const NavBar = () => {
 
     return (
         <>
-        <div id='navbar-items' className='grid-span-1 col-start-2 justfiy-self-end text-lg p-2'>
+        <div id='navbar-items' className='grid-span-1 col-start-2 justfiy-self-end text-xl p-2'>
           <ul >
           <Link to='aboutme' activeClass='active' smooth={true} duration={600} offset={-100}>
               <li className='hover:scale-105'>About Me</li>
