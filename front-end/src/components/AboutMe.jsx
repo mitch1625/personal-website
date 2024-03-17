@@ -12,6 +12,7 @@ const AboutMe = () => {
           </div>
           <div className="p-3 text-xl">
             <p>I spent six years in the Army working as a licensed practical nurse. After finishing my contract, I wanted to spend some time aboard and decided to study Korean in South Korea for two years. I came back to the United States in 2023 to pursue a career in software development.</p>
+            <p>{"Currently I'm learning Typescript."}</p>
             <p>{"I'm actively seeking new opportunities for work. Feel free to connect with me."}</p>
           </div>
           <div className="flex justify-end gap-3">
