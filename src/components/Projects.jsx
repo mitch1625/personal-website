@@ -14,7 +14,7 @@ const Projects = () => {
           </a>
         </div>
         <div className="text-xl">
-          <p>{"Language learning / social media web application. User's display feed is from other members whose native language targets the useer's target learning language."}</p>
+          <p>{"Language learning / social media web application. User's display feed is from other members whose native language matches the user's target learning language."}</p>
           <p className="italic">Built with React.js, JavaScript, Python, Django, and PostgreSQL</p>
         </div>
       </section>

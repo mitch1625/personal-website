@@ -10,7 +10,7 @@ const AboutMe = () => {
             <h1 className="text-9xl -mx-1.5">Hello</h1>
             <h1 className="text-6xl">My name is Eric Mitchell.</h1>
           </div>
-            <p className="p-3 text-xl">I spent six years in the Army working as a licensed practical nurse. After finishing my contract, I wanted to spend some time aboard and decided to study Korean in South Korea for two years. I came back to the United States in 2023 to pursue a career in software development.</p>
+            <p className="p-3 text-xl">I spent six years in the Army working as a licensed practical nurse. After finishing my contract, I wanted to spend some time abroad and decided to study Korean in South Korea for two years. I came back to the United States in 2023 to pursue a career in software development.</p>
             <p className="p-3 text-xl">{"I'm actively seeking new opportunities for work. Feel free to connect with me."}</p>
           <div className="flex justify-end gap-3">
             <a href="https://www.github.com/mitch1625" target="blank">

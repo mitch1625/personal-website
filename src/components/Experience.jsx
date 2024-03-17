@@ -11,8 +11,8 @@ const Experience = () => {
 
     <section className="p-3">
       <h3 className="lg:text-lg sm:text-md">March 2021 - February 2023</h3>
-      <h2 className="text-4xl font-semibold">Yonsei Korean Language Institute</h2>  
-      <p className="text-xl">2 year immersive Korean language program located at Yonsei University in Seoul, South Korea.</p>
+      <h2 className="text-4xl font-semibold">Yonsei University Korean Language Institute</h2>  
+      <p className="text-xl">2 year immersive Korean language program located in Seoul, South Korea.</p>
     </section>
 
     <section className="p-3">
