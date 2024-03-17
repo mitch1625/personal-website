@@ -2,12 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+
 #root {
   display:flex;
   justify-content: center;
   height: 100%;
   padding-top: 50px;
-
+  font-family:"Roboto Slab", serif;
+  background-color: #f4f8f6;
 }
 
 
