@@ -17,7 +17,7 @@
 }
 
 
-#navbar :hover {
+#navbar-items :hover {
   cursor: pointer;
 }
 
@@ -42,6 +42,15 @@ li {
   }
 }
 
-#aboutme {
+#aboutme, #navbar {
   animation: fadeInRight 1s ease-in-out
+}
+
+@keyframes rollout {
+  0% { transform: translateY(400px); }
+  100% { transform: none; }
+}
+
+#projects, #experience {
+  animation: rollout 1.5s;
 }

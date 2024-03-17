@@ -16,13 +16,13 @@ const AboutMe = () => {
           </div>
           <div className="flex justify-end gap-3">
             <a href="https://www.github.com/mitch1625" target="blank">
-              <img style={{width:'40px', height:'40px'}} src={github}/>
+              <img style={{width:'30px', height:'30px'}} src={github}/>
             </a>
             <a href="https://www.linkedin.com/in/ericmitchell1625/" target="blank">
-              <img style={{width:'40px', height:'40px'}} src={linkedin}/>
+              <img style={{width:'30px', height:'30px'}} src={linkedin}/>
             </a>
             <a href="mailto:ericmitchell16255@gmail.com">
-              <img style={{width:'40px', height:'40px'}} src={email}/>
+              <img style={{width:'30px', height:'30px'}} src={email}/>
             </a>
           </div>
         </div>
