@@ -5,34 +5,36 @@ const Projects = () => {
   return (
     <>
     <div id='projects' className='grid w-full lg:col-span-2 space-y-[20px] mt-60'>
-      <h1 className="text-3xl font-semibold">Projects</h1>
+      <h1 className="text-5xl font-bold">Projects</h1>
       <section className="p-3">
-        <div className="flex gap-5">
-          <h2 className="text-2xl">Tiki Taka</h2>
-          <a href="https://github.com/mitch1625/tiki_taka" target="blank">
+        <div className="flex">
+          <h2 className="text-4xl font-semibold">Tiki Taka</h2>
+          <a  className="pl-1 self-center" href="https://github.com/mitch1625/tiki_taka" target="blank">
             <img style={{width:'30px', height:'30px'}} src={github}/>
           </a>
         </div>
-        <div className="text-lg">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ipsam esse placeat, doloremque, in tenetur similique est animi rerum odio vel quas, dolorem iste eos earum vero iure enim quasi!</p>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi quis cupiditate, harum saepe minus voluptas sequi minima nam exercitationem vel necessitatibus tempora animi cumque dolorem fugit aut beatae, optio officia.</p>
+        <div className="text-xl">
+          <p>{"Language learning / social media web application. User's display feed is from other members whose native language targets the useer's target learning language."}</p>
+          <p className="italic">Built with React.js, JavaScript, Python, Django, and PostgreSQL</p>
         </div>
       </section>
       
       <section>
         <div className="p-3">
-          <div className="flex gap-5">
-            <h2 className="text-2xl">The Sacred Scrolls</h2>
-            <a href="https://github.com/andrew-hagstrom/Sacred_Scrolls_Project" target="blank">
+          <div className="flex">
+            <h2 className="text-4xl font-semibold">Sacred Scrolls</h2>
+            <div className="flex">
+            <a className="pl-1 self-center" href="https://github.com/andrew-hagstrom/Sacred_Scrolls_Project" target="blank">
               <img style={{width:'30px', height:'30px'}} src={github}/>
             </a>
-            <a href="https://sacredscrolls.org/" target="blank">
+            <a className="pl-1 self-center" href="https://sacredscrolls.org/" target="blank">
               <img style={{width:'30px', height:'30px'}} src={website}/>
             </a>
+            </div>
           </div>
-            <div className="text-lg">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ipsam esse placeat, doloremque, in tenetur similique est animi rerum odio vel quas, dolorem iste eos earum vero iure enim quasi!</p>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi quis cupiditate, harum saepe minus voluptas sequi minima nam exercitationem vel necessitatibus tempora animi cumque dolorem fugit aut beatae, optio officia.</p>
+            <div className="text-xl">
+              <p>{"Web application that allows users to explore the similarities and differences between the Bible, Quaran, and  Bhagavad Gita."}</p>
+              <p className="italic">Built with React.js, JavaScript, Python, Django, and PostgreSQL</p>
             </div>
         </div>
       </section>
